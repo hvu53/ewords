@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.mikepenz/octicons-typeface/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="839cdc3454f408471ca32a81b301624d9211ebd4">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.mikepenz-octicons-typeface-2.2.0_5141775c2605a95c9a6fcdd00f38c7f0d4ce989a.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/guava-18.0_a20a4c3993acba6be4be06953ea6fc86ba2d505b.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5025422767732a1ab45d93abfea846513d742dcf">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/jsr250-api-1.0_4e4a06c50aabe9843a554b4e57ddb1605d5924d6.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8c046c952177602c858ed41c8fc492c939bde9aa">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.0.1_3e50b962a258a787cf38043ae4ccb64fb5a6a599.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a0c456a59e1edab84702b48a626705aa1d830ccc">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b6b9e315dc368645bb8e817b7c4ac798e1666c4d.jar" />
+    </item>
+    <item
+        jar="/Applications/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_26a7bfad3674e8e928b3d00c64a9d9f0f7496809.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/words/data/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bbcdc1d0d94d6434425c0bc3bfdb08174f61c5c3">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/words-data-unspecified_8882d429d842a1e8187024c5d4d0ffafc206a2da.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/javax.inject-1_53cfddaa0c569500c70b293d2d6ed83fe5304435.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_2b07d3bbab3bbf75b2bd6ed3d1f2709b6d3dfbc4.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-producers/2.0-beta/80276338d1c2542ebebac542b535d1ecd48a3fd7/dagger-producers-2.0-beta.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="80276338d1c2542ebebac542b535d1ecd48a3fd7">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/dagger-producers-2.0-beta_5b2d8577a1465bb93c188f4d3e75281c72d99bd4.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_2fc28c6c8df1891f59984c7f52fbe8570f601d87.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-compiler/2.0/2c5c7cfd604076f09eac6fd0783b3eebbc125732/dagger-compiler-2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c5c7cfd604076f09eac6fd0783b3eebbc125732">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/dagger-compiler-2.0_24bbfbc69cb0a1d476e6f477c607423d442cc576.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_feb0bd3facaf6dd5e5b5ec5faa443e0fddcdadfe.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.1.0_9decebcf9fe8bc71baf6c4ed2e9ac1b46482d2f9.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1134458f31b57c1b185e9efabba10219d41f2c85">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-23.0.1_bc9dc95bb78bdae268b5e4462bedad721f2e76ca.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.mikepenz/aboutlibraries/5.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05c09a0e7ad758c6d40932e6faf3359dc1277240">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.mikepenz-aboutlibraries-5.2.1_38244a5db070d4f77b68d9af6b5f0243bc2fd248.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_4eee1715415490074b6034a7e4fefc28d686c366.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.daimajia.numberprogressbar/library/1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4196173ec5799ff211761f90874802789c6cc4ac">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.daimajia.numberprogressbar-library-1.2_fc16aeaa55cee257d116469bf4368effad7a1d33.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.0/da7ba0ee1d30edd955da276cdf01d3d7cb24aedc/dagger-2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="da7ba0ee1d30edd955da276cdf01d3d7cb24aedc">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/dagger-2.0_4851b63b4864bb4990e5582c54db57d4b925a502.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_6e58370cc8342ab643dbffa30af2919985622900.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/domain/build/libs/domain.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e5d033b0a37a5ee05df42e25ed1a645471a8c16">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/domain_18369c68f51d42279cce83bf4e5e9b12bd6aa049.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="11887b37d7e55a681fec51d32d604f6b561b1a0d">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/jp.wasabeef-recyclerview-animators-1.2.1_b48e4aa8bc7d61a51e363b3569255f615ee6e54c.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.0/748f0546d5c3c27f1aef07270ffea0c45f0c42a4/rxjava-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/rxjava-1.1.0_c63f637af291375391abec136348f24dc4fe6c38.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/1.3.7/dda08161d004c4df96938da6909f1c2b96cd33c8/greendao-1.3.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/greendao-1.3.7_5ac9dbde8ba85794c7535baa01f48d1c2c15db27.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/gson-2.3.1_a44808e8171c4935891a1b536a45a34f7cf37f94.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.0.1_c2980107c1274466662332cbf0178cc4f4340c0a.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.0.1_e2d3cdf6f7bee95207749d3957329a1ea53e6ab5.jar" />
+    </item>
+    <item
+        jar="/Users/hoavu/Dev/words/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/hoavu/Dev/words/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_41cb4b8f6260b2fdbc5fe2b2f5d04c38c2c792f8.jar" />
+    </item>
+
+</items>
