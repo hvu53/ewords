@@ -19,6 +19,7 @@ apply plugin: 'java'
 dependencies {
     def generatorDependencies = rootProject.ext.generatorDependencies
     compile generatorDependencies.greendaoGenerator
+
 }
 
 task generate(type: JavaExec) {

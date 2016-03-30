@@ -46,9 +46,7 @@ android {
 dependencies {
     compile project(':domain')
     compile project(':data')
-
     def appDependencies = rootProject.ext.appDependencies
-
     compile appDependencies.supportDesign
     compile appDependencies.appcompatV7
     compile appDependencies.cardviewV7
@@ -68,4 +66,5 @@ dependencies {
     compile appDependencies.numberprogressbar
     compile appDependencies.butterknife
     compile appDependencies.rxandroid
+    compile files('src/main/libs/KiipSDK.jar')
 }

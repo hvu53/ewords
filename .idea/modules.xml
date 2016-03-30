@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ewords.iml" filepath="$PROJECT_DIR$/ewords.iml" />
       <module fileurl="file://$PROJECT_DIR$/generator/generator.iml" filepath="$PROJECT_DIR$/generator/generator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/words.iml" filepath="$PROJECT_DIR$/words.iml" />
     </modules>
   </component>
 </project>

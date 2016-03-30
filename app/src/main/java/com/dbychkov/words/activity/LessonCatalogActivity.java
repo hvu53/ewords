@@ -21,6 +21,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -40,6 +41,8 @@ import javax.inject.Inject;
 import butterknife.Bind;
 import butterknife.BindString;
 import butterknife.ButterKnife;
+import me.kiip.sdk.Kiip;
+import me.kiip.sdk.Poptart;
 
 /**
  * Main activity with list of lessons (installed lessons, bookmarked lessons, user lessons).
@@ -138,6 +141,23 @@ public class LessonCatalogActivity extends BaseActivity implements ViewPager.OnP
     @Override
     public void onPageSelected(int position) {
         if (position == 2) {
+            Kiip.getInstance().saveMoment("1", new Kiip.Callback() {
+
+                @Override
+                public void onFinished(Kiip kiip, Poptart reward) {
+                    if (reward == null) {
+                        Log.d(KIIP_TAG, "Successful moment but no reward to give.");
+                    }
+                    else {
+                        onPoptart(reward);
+                    }
+                }
+
+                @Override
+                public void onFailed(Kiip kiip, Exception exception) {
+                    // handle failure
+                }
+            });
             floatingActionButton.show();
         } else {
             floatingActionButton.hide();

@@ -23,6 +23,8 @@ import com.dbychkov.words.dagger.component.DaggerApplicationComponent;
 import com.dbychkov.words.dagger.module.ApplicationModule;
 import com.dbychkov.words.util.LogHelper;
 
+import me.kiip.sdk.Kiip;
+
 /**
  * Class for maintaining global application state
  */
@@ -39,6 +41,8 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        Kiip kiip = Kiip.init(this, "6cdecaa032aa84ec72598b94f848fb40", "7ef35d5f4d09f0071eba5ecfa3a28ccf");
+        Kiip.setInstance(kiip);
         singleton = this;
         setUncaughtExceptionHandler();
         initApplicationComponent();

@@ -26,6 +26,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -43,6 +44,9 @@ import java.util.Collections;
 import java.util.List;
 
 import javax.inject.Inject;
+
+import me.kiip.sdk.Kiip;
+import me.kiip.sdk.Poptart;
 
 /**
  * Edit flashcards activity
@@ -126,8 +130,12 @@ public class EditFlashcardsActivity extends FlashcardsActivity implements EditFl
     public void setupFab() {
         final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
+
+
+
             @Override
             public void onClick(View v) {
+
                 editFlashcardsActivityPresenter.createFlashcardsClicked();
             }
         });
