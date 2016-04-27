@@ -141,23 +141,7 @@ public class LessonCatalogActivity extends BaseActivity implements ViewPager.OnP
     @Override
     public void onPageSelected(int position) {
         if (position == 2) {
-            Kiip.getInstance().saveMoment("1", new Kiip.Callback() {
 
-                @Override
-                public void onFinished(Kiip kiip, Poptart reward) {
-                    if (reward == null) {
-                        Log.d(KIIP_TAG, "Successful moment but no reward to give.");
-                    }
-                    else {
-                        onPoptart(reward);
-                    }
-                }
-
-                @Override
-                public void onFailed(Kiip kiip, Exception exception) {
-                    // handle failure
-                }
-            });
             floatingActionButton.show();
         } else {
             floatingActionButton.hide();

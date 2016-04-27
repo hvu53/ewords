@@ -22,12 +22,19 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import butterknife.*;
+import me.kiip.sdk.Kiip;
+import me.kiip.sdk.Poptart;
+
 import com.dbychkov.domain.Flashcard;
 import com.dbychkov.words.R;
 import com.dbychkov.words.adapter.CardPagerAdapter;
@@ -155,16 +162,52 @@ public class StudyFlashcardsActivity extends BaseActivity implements StudyFlashc
 
     @Override
     public void showLessonEndedDialog() {
+        Kiip.getInstance().saveMoment("1", new Kiip.Callback() {
+
+            @Override
+            public void onFinished(Kiip kiip, Poptart reward) {
+                if (reward == null) {
+                    Log.d(KIIP_TAG, "Successful moment but no reward to give.");
+                }
+                else {
+                    onPoptart(reward);
+                }
+            }
+
+            @Override
+            public void onFailed(Kiip kiip, Exception exception) {
+                // handle failure
+            }
+        });
         buildDialog(lessonEndedText, lessonEndedTitle);
     }
 
     @Override
     public void showAllWordsLearntDialog() {
+        Kiip.getInstance().saveMoment("1", new Kiip.Callback() {
+
+            @Override
+            public void onFinished(Kiip kiip, Poptart reward) {
+                if (reward == null) {
+                    Log.d(KIIP_TAG, "Successful moment but no reward to give.");
+                }
+                else {
+                    onPoptart(reward);
+                }
+            }
+
+            @Override
+            public void onFailed(Kiip kiip, Exception exception) {
+                // handle failure
+            }
+        });
         buildDialog(wordsLearntText, wordsLearntTitle);
     }
 
     private void buildDialog(String message, String title) {
-        new AlertDialog.Builder(this)
+        Handler handler = new Handler();
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
                 .setTitle(title)
                 .setMessage(message)
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
@@ -173,10 +216,18 @@ public class StudyFlashcardsActivity extends BaseActivity implements StudyFlashc
                         dialog.dismiss();
                         onBackPressed();
                     }
-                })
-                .setCancelable(false)
-                .create()
-                .show();
+                }).create();
+        dialog.setCancelable(false);
+        dialog.show();
+        // Access the button and set it to invisible
+        final Button button = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+        button.setVisibility(View.INVISIBLE);
+
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                button.setVisibility(View.VISIBLE);
+            }}, 5000);
     }
 
     @Override
